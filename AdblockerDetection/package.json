@@ -1,7 +1,7 @@
 {
-  "name": "shop",
+  "name": "Adblocker Detection",
   "version": "1.0.0",
-  "description": "Alle Scripts die mit Google Analytics / Google Tag Manager in Verbindung stehen.",
+  "description": "Mit dem Script werden Adblock-Nutzer erkannt und zur statistischen Auswertung anonym an Analytics über Events geschickt. So kann erkannt werden, in welcher Menge Nutzer Adblocker auf der eigenen Seite benutzen und daraus weitere Maßnahmen/Erkenntnisse ableiten.",
   "main": "src/index.js",
   "dependencies": {
     "@babel/runtime": "^7.1.2",
@@ -26,11 +26,7 @@
     "dev": "webpack --config webpack.dev.config.js",
     "vermarktungspaket": "webpack --config vermarktungspaket.production.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://elexio@bitbucket.org/oselex/shop.git"
-  },
-  "author": "",
+  "author": "Marcus Woyciechowski",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/oselex/shop#readme"
+  "homepage": "https://woytec.de"
 }

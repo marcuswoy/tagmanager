@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-    var TRACKING_CODE = "UA-124501862-2"; // AB - Shop - UserID aktiviert
+    var TRACKING_CODE = "UA-CODE";
 
     var isBlockerNotChecked = function (name) {
         var isNotBlocked = true;

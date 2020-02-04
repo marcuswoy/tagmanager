@@ -1,3 +1,6 @@
-# AdBlocker
+# AdBlocker usage statistics
 
-PHP und JavaScript welche in Zusammenarbeit AdBlocker-Nutzer erkennen können. Dient der statistischen Auswertung.
+Statistische Auswertung der Nutzung von Adblocker.
+
+Das Script erkennt, ob der Adblocker im Einsatz ist und schickt an Google Analytics
+ein Event, um später auf Basis dieser Infos eine Auswertung machen zu können.
