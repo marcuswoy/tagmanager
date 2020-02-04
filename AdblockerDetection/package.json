@@ -1,0 +1,36 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "Alle Scripts die mit Google Analytics / Google Tag Manager in Verbindung stehen.",
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@types/jquery": "^3.3.22",
+    "babel-loader": "^8.0.4",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.production.config.js",
+    "dev": "webpack --config webpack.dev.config.js",
+    "vermarktungspaket": "webpack --config vermarktungspaket.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://elexio@bitbucket.org/oselex/shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/oselex/shop#readme"
+}
