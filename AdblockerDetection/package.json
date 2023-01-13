@@ -7,7 +7,7 @@
     "@babel/runtime": "^7.1.2",
     "clean-webpack-plugin": "^0.1.19",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
